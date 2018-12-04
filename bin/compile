@@ -7,7 +7,7 @@ indent() {
 echo "-----> Installing taglib"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="http://s3.amazonaws.com/purple-cloud-binaries/heroku/taglib.tar.gz"
+DOWNLOAD_URL="https://taglib.org/releases/taglib-1.11.1.tar.gz"
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
